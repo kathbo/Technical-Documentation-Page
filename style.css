@@ -1,6 +1,10 @@
 html {
     font-family: 'Open Sans', Arial, sans-serif;
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 /* NAV */
 
@@ -31,7 +35,6 @@ a#reference {
 /* MAIN */
 
 main {
-    padding1: 1.5em 1em;
     padding: 0.5em 1em 1.5em
 }
 header {
@@ -55,4 +58,27 @@ code {
     margin: 0 2em;
     border-radius: 6px;
     line-height: 2em;
+}
+
+@media (min-width: 1000px) {
+    body {
+        flex-direction: row;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 19em; 
+        border-right: 3px solid #727292;
+        min-height: 100vh;
+    }
+    div#nav-a {
+        min-height: 86vh;
+    }
+    a.nav-link {
+        padding: 1em 1.8em;
+    }
+    main {
+        margin-left: 20em;
+    }
 }
