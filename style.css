@@ -87,7 +87,7 @@ a#kath {
         padding: 0;
     }
     div#nav-a {
-        max-height: 90vh;
+        max-height: 89vh;
         border: none;
     }
     a.nav-link {
@@ -104,6 +104,6 @@ a#kath {
         margin-left: 1em;
     }
     p#p-me {
-        padding-top: 2em;
+        padding-top: 1em;
     }
 }
