@@ -35,7 +35,7 @@ a#reference {
 /* MAIN */
 
 main {
-    padding: 0.5em 1em 1.5em
+    padding: 0.5em 1em 0;
 }
 header {
     font-size: 1.8em;
@@ -58,6 +58,16 @@ code {
     margin: 0 2em;
     border-radius: 6px;
     line-height: 2em;
+}
+p#p-me {
+    text-align: center;
+    padding-top: 2em;
+    margin-bottom: 0;
+}
+a#kath {
+    text-decoration: none;
+    color: orangered;
+    font-weight: 600;
 }
 
 @media (min-width: 1000px) {
