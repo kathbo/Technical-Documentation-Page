@@ -69,16 +69,27 @@ code {
         top: 0;
         left: 0;
         width: 19em; 
-        border-right: 3px solid #727292;
+        border-right: 3px solid darkgrey;
         min-height: 100vh;
     }
+    header#nav-title {
+        padding: 0;
+    }
     div#nav-a {
-        min-height: 86vh;
+        max-height: 90vh;
+        border: none;
     }
     a.nav-link {
         padding: 1em 1.8em;
+        color: rgb(54, 54, 54);
+    }
+    a#intro {
+        border-top: 1px solid black;
     }
     main {
         margin-left: 20em;
+    }
+    ul {
+        margin-left: 1em;
     }
 }
