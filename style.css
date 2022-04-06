@@ -1,9 +1,9 @@
 html {
     font-family: 'Open Sans', Arial, sans-serif;
 }
-nav {
 
-}
+/* NAV */
+
 header#nav-title {
     text-align: center;
     font-size: 2em;
@@ -26,4 +26,32 @@ a.nav-link {
 }
 a#reference {
     border-bottom: none;
+}
+
+/* MAIN */
+
+main {
+    padding: 1.5em 1em;
+}
+header {
+    font-size: 1.8em;
+    margin: 0.5em 0;
+}
+p {
+    padding: 0 1em;
+    line-height: 1.3em;
+}
+p, li, code {
+    opacity: 0.8;
+}
+li {
+    margin-top: 1em;
+}
+code {
+    background-color: #f7f7f7;
+    display: block;
+    padding: 1.3em 1em;
+    margin: 0 2em;
+    border-radius: 6px;
+    line-height: 2em;
 }
