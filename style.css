@@ -1,0 +1,29 @@
+html {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+nav {
+
+}
+header#nav-title {
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em 0;
+}
+div#nav-a {
+    max-width: 100vw;
+    max-height: 10em;
+    overflow-y: scroll;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+a.nav-link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 1em 1.5em;
+}
+a#reference {
+    border-bottom: none;
+}
