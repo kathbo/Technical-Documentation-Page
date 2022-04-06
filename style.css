@@ -31,7 +31,8 @@ a#reference {
 /* MAIN */
 
 main {
-    padding: 1.5em 1em;
+    padding1: 1.5em 1em;
+    padding: 0.5em 1em 1.5em
 }
 header {
     font-size: 1.8em;
